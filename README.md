@@ -1,5 +1,9 @@
 ### Open-Source-Workshop
 
+##### Setup
+Optional: Setup a virtual environment using `python -m venv env`
+Install: `pip -r install requirements.txt`
+
 ##### Basic usage of this project
 Run `python length.py --inch-to-cm 5` to convert 5 inch to cm.
 
