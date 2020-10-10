@@ -1,7 +1,7 @@
 ### Open-Source-Workshop
 
 ##### Setup
-Optional: Setup a virtual environment using `python -m venv env`
+Optional: Setup a virtual environment using `python -m venv env`<br/>
 Install: `pip -r install requirements.txt`
 
 ##### Basic usage of this project
