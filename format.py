@@ -6,3 +6,4 @@ FormatFile("currency.py", in_place=True)
 
 # args parser for cm to mm converter
 parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
+#demo
