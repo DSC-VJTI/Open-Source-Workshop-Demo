@@ -32,6 +32,16 @@ def inch_to_cm(inch):
 def cm_to_inch(cm):
     print(f'{cm} cm in inch is: {cm/2.54} inch')
 
+def cm_to_feet(cm):
+    print(f'{cm} cm in feet is: {cm/30.48} feet') #added cm to feet converter
+    
+
+
+
+    
+
 
 if __name__ == "__main__":
     main()
+
+
