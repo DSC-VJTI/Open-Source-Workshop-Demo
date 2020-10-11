@@ -1,5 +1,7 @@
 import argparse
 
+
+# we are defining the arguments describing the conversion from inches to centimeteres and centimeters to inches.
 parser = argparse.ArgumentParser()
 parser.add_argument('--inch-to-cm', type=float, dest="inch_to_cm")
 parser.add_argument('--cm-to-inch', type=float, dest="cm_to_inch")
