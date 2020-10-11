@@ -36,7 +36,7 @@ def cm_to_inch(cm):
 
 def cm_to_mm_helper():
     cm=args.cm_to_mm
-    if m:
+    if cm:
         cm_to_mm(cm)
 
 def m_to_cm(cm):
