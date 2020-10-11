@@ -43,6 +43,7 @@ if __name__ == "__main__":
 #For deleting a branch,come outside that branch.Then git branch -d (branch_name).
 #git merge topic for fast forward merge.
 #git checkout -b topic2 for creating a new branch.
+#git merge --abort for aborting the merge in case of a conflict which we can't resolve now.
 
 # # args parser for cm to mm converter
 # parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
