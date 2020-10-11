@@ -41,6 +41,8 @@ if __name__ == "__main__":
 #git checkout <branch_name> for changing from current active branch to that branch
 #git push -u origin dsc for pushing new created branch of local repository to remote repository.
 #For deleting a branch,come outside that branch.Then git branch -d (branch_name).
+#git merge topic for fast forward merge.
+#git checkout -b topic2 for creating a new branch.
 
 # # args parser for cm to mm converter
 # parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
