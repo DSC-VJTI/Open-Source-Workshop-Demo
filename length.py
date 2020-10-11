@@ -1,4 +1,5 @@
-import argparse
+#this file helps in interconverting between different units and scales of length
+import argparse    
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--inch-to-cm', type=float, dest="inch_to_cm")
@@ -21,7 +22,7 @@ def cm_to_mm_helper():
 
 # Helper functions to check if the arg exists or not
 def inch_to_cm_helper():
-    inch = args.inch_to_cm
+    inch = args.inch_to_cm#
     if inch:
         inch_to_cm(inch)
 
@@ -45,7 +46,8 @@ def cm_to_mm(cm_mm):
 
 
 if __name__ == "__main__":
+    print("hello, welcome to the world of conversion")
     main()
 
 
-# i didn't add any changes :>
+# i did add some minor changes :>
