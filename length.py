@@ -32,6 +32,11 @@ def inch_to_cm(inch):
 def cm_to_inch(cm):
     print(f'{cm} cm in inch is: {cm/2.54} inch')
 
+def cm_to_mm(cm):
+    print(f'{cm} cm in meter is: {cm*10} inch')
+def cm_to_m(cm):
+    print(f'{cm} cm in meter is: {cm/100} inch')
+
 
 if __name__ == "__main__":
     main()
