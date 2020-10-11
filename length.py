@@ -43,7 +43,7 @@ def inch_to_cm(inch):
 
 
 def cm_to_inch(cm):
-    print(f'{cm} cm in inch is: {cm/2.54} inch')
+    print(f'{cm} cm in inch is: {cm/2.56} inch')
 
 
 if __name__ == "__main__":
