@@ -48,8 +48,8 @@ def cm_to_mm_helper():
     if (cm_mm):
         cm_to_mm(cm_mm)
 
-# function to convert cm to mm
+# function is to convert cm to mm
 
 
 def cm_to_mm(cm_mm):
-    print(f'{cm_mm}cm in mm is: {cm*10} mm')
+    print(f'{cm_mm}cm in mm is: {cm_mm*10} mm')
