@@ -46,6 +46,9 @@ if __name__ == "__main__":
 #git merge --abort for aborting the merge in case of a conflict which we can't resolve now.
 #revert is also a way of undoing changes.It is present in the remaining part of noon pdf.
 #git rebase <branch_name> brings the base of the branch on the master branch.
+#git rebase interactive helps in rebasing between specific commits.
+#git remote and git remote -v 
+#git remote add <any name> <url-of-remote>
 
 # # args parser for cm to mm converter
 # parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
