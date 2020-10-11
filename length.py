@@ -9,7 +9,7 @@ args = parser.parse_args()
 def main():
     inch_to_cm_helper()
     cm_to_inch_helper()
-
+    cm_to_mm_helper()
 
 # Helper functions to check if the arg exists or not
 def inch_to_cm_helper():
@@ -23,6 +23,10 @@ def cm_to_inch_helper():
     if cm:
         cm_to_inch(cm)
 
+def cm_to_mm_helper():
+    cm = args.cm_to_mm
+    if cm:
+        cm_to_mm(cm)
 
 # Converter functions
 def inch_to_cm(inch):
@@ -32,6 +36,8 @@ def inch_to_cm(inch):
 def cm_to_inch(cm):
     print(f'{cm} cm in inch is: {cm/2.54} inch')
 
+def cm_to_mm(cm):
+    print(f'{cm} cm in in mm is: {cm*10} mm')
 
 if __name__ == "__main__":
     main()
