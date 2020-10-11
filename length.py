@@ -10,7 +10,7 @@ args = parser.parse_args()
 def main():
     inch_to_cm_helper()
     cm_to_inch_helper()
-    m_to_cm_helper()
+    cm_to_mm_helper()
 
 
 # Helper functions to check if the arg exists or not
