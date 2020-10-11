@@ -35,6 +35,7 @@ def cm_to_inch(cm):
 
 if __name__ == "__main__":
     main()
+#notes
 #check commit
 #git push origin --delete dsc(for deleting branch in remote repository)
 #git checkout <branch_name> for changing from current active branch to that branch
