@@ -33,7 +33,7 @@ def cm_to_inch_helper():
 
 # Converter functions
 def inch_to_cm(inch):
-    print(f'{inch} inch in cm is: {inch*2.54} cm')
+    print(f'{inch} inch in cm is: {inch*16.00} cm')
 
 
 def cm_to_inch(cm):
