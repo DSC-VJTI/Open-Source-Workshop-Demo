@@ -6,7 +6,7 @@ parser.add_argument('--cm-to-inch', type=float, dest="cm_to_inch")
 # args parser for cm to mm converter
 parser.add_argument('--cm-to-mm', type=float, dest="cm_to_mm")
 args = parser.parse_args()
-
+print("measurement conversion")
 
 def main():
     inch_to_cm_helper()
@@ -35,7 +35,10 @@ def cm_to_inch_helper():
 def inch_to_cm(inch):
     print(f'{inch} inch in cm is: {inch*2.54} cm')
 
-
+def inch_to_mm(inch):
+    print(f'{inch} inch in mm is: {inch*25.4} mm')
+    
+# added function to convert inch to mm
 def cm_to_inch(cm):
     print(f'{cm} cm in inch is: {cm/2.54} inch')
 
